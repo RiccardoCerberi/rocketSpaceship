@@ -3,7 +3,7 @@
 
 class Spaceship {
     public:
-    Spaceship(char* image_path);
+        Spaceship(char* image_path); 
     private:
         char* m_image_path;
 };

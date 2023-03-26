@@ -1,0 +1,5 @@
+/home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles/edit_cache.dir
+/home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/riccardo/Project/gameDev/spaceship/build/Debug/src/CMakeFiles/spaceship.dir
+/home/riccardo/Project/gameDev/spaceship/build/Debug/src/CMakeFiles/edit_cache.dir
+/home/riccardo/Project/gameDev/spaceship/build/Debug/src/CMakeFiles/rebuild_cache.dir

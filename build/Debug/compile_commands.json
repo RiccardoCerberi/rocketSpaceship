@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/riccardo/Project/gameDev/spaceship/build/Debug/src",
+  "command": "/usr/bin/c++  -I/home/riccardo/Project/gameDev/spaceship/include -isystem /usr/include/SDL2 -g -Wall -Wextra -Wshadow -Wformat=2 -o CMakeFiles/spaceship.dir/main.cpp.o -c /home/riccardo/Project/gameDev/spaceship/src/main.cpp",
+  "file": "/home/riccardo/Project/gameDev/spaceship/src/main.cpp"
+}
+]
