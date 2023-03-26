@@ -1,1 +1,1 @@
-# A conventional game for convetional people
+# A conventional game for conventional people
