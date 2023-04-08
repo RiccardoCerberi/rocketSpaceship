@@ -255,8 +255,6 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
-  ../../include/spaceship.hpp \
-  /usr/include/c++/11/cstring \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -348,8 +346,69 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  ../../include/spaceship.hpp \
+  /usr/include/c++/11/cstring
 
+
+../../include/spaceship.hpp:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bit:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -393,7 +452,11 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/usr/include/c++/11/bits/shared_ptr.h:
+
 /usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/c++/11/bits/basic_string.h:
 
@@ -459,11 +522,9 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/include/c++/11/cwchar:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/ios:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/SDL2/SDL_clipboard.h:
 
@@ -476,6 +537,8 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
@@ -583,11 +646,11 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-../../include/spaceship.hpp:
-
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/SDL2/SDL_keycode.h:
 
@@ -600,6 +663,8 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -715,6 +780,8 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/include/ctype.h:
 
+/usr/include/c++/11/pstl/execution_defs.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
 
 /usr/include/c++/11/typeinfo:
@@ -761,6 +828,14 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/usr/include/c++/11/cstring:
+
+/usr/include/math.h:
+
+../../src/main.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
 /usr/include/SDL2/SDL_touch.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -782,6 +857,12 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 /usr/include/SDL2/SDL_sensor.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/utility:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/ios:
 
 /usr/include/stdio.h:
 
@@ -911,12 +992,6 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h:
 
-/usr/include/c++/11/initializer_list:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vldqintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h:
@@ -983,9 +1058,17 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h:
 
+/usr/include/c++/11/initializer_list:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:
+
+/usr/include/c++/11/iosfwd:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16intrin.h:
 
@@ -1000,14 +1083,6 @@ src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp \
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/SDL2/SDL_mouse.h:
-
-/usr/include/math.h:
-
-../../src/main.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/cstring:
 
 /usr/include/SDL2/SDL_joystick.h:
 

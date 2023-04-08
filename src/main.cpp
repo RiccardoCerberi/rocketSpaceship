@@ -1,6 +1,8 @@
 #include "SDL2/SDL.h"
-
+#include<iostream>
+#include<memory>
 #include"../include/spaceship.hpp"
+#include"../include/window.hpp"
 #include<cstring>
 
 int main(int argc, char *argv[]) {
@@ -10,6 +12,8 @@ int main(int argc, char *argv[]) {
                 SDL_GetError());
         return -1;
     }
+    
+    Window window_obj;
 
     SDL_Window *window =
         SDL_CreateWindow("Everything works!!!!", SDL_WINDOWPOS_UNDEFINED,

@@ -19,7 +19,7 @@ set_target_properties(spaceship
       RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin/$<CONFIG>")
 
 #compiler flags
-target_compile_features(spaceship PUBLIC cxx_std_11)
+target_compile_features(spaceship PUBLIC cxx_std_17)
 
 # add compiler warning flags just when building this project
 # via the BUILD_INTERFACE generator expression
