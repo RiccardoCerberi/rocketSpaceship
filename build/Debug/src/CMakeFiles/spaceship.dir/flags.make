@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/riccardo/Project/gameDev/spaceship/include -isystem /usr/include/SDL2
+CXX_INCLUDES = -I/home/riccardo/Projects/gameDev/rocketSpaceship/include
 
-CXX_FLAGS = -g -Wall -Wextra -Wshadow -Wformat=2
+CXX_FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -std=c++20
 

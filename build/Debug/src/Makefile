@@ -57,18 +57,18 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/riccardo/Project/gameDev/spaceship
+CMAKE_SOURCE_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/riccardo/Project/gameDev/spaceship/build/Debug
+CMAKE_BINARY_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles /home/riccardo/Project/gameDev/spaceship/build/Debug/src//CMakeFiles/progress.marks
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles 0
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src//CMakeFiles/progress.marks
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/spaceship.dir/rule:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/spaceship.dir/rule
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/spaceship.dir/rule
 .PHONY : src/CMakeFiles/spaceship.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ spaceship: src/CMakeFiles/spaceship.dir/rule
 
 # fast build rule for target.
 spaceship/fast:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/build
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/build
 .PHONY : spaceship/fast
 
 main.o: main.cpp.o
@@ -135,7 +135,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.o
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.i
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.s
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

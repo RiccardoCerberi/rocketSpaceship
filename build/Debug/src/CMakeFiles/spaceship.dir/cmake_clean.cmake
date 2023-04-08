@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../bin/Debug/spaceship"
-  "../../../bin/Debug/spaceship.pdb"
+  "../../../bin/spaceship"
+  "../../../bin/spaceship.pdb"
   "CMakeFiles/spaceship.dir/main.cpp.o"
   "CMakeFiles/spaceship.dir/main.cpp.o.d"
 )
