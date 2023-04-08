@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/riccardo/Project/gameDev/spaceship
+CMAKE_SOURCE_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/riccardo/Project/gameDev/spaceship/build/Debug
+CMAKE_BINARY_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -96,14 +96,14 @@ src/clean: src/CMakeFiles/spaceship.dir/clean
 src/CMakeFiles/spaceship.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/spaceship.dir/build.make src/CMakeFiles/spaceship.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles --progress-num=1,2 "Built target spaceship"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles --progress-num=1,2 "Built target spaceship"
 .PHONY : src/CMakeFiles/spaceship.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/spaceship.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/spaceship.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles 0
 .PHONY : src/CMakeFiles/spaceship.dir/rule
 
 # Convenience name for target.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/riccardo/Project/gameDev/spaceship
+CMAKE_SOURCE_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/riccardo/Project/gameDev/spaceship/build/Debug
+CMAKE_BINARY_DIR = /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/spaceship.dir/depend.make
@@ -72,16 +72,16 @@ include src/CMakeFiles/spaceship.dir/flags.make
 src/CMakeFiles/spaceship.dir/main.cpp.o: src/CMakeFiles/spaceship.dir/flags.make
 src/CMakeFiles/spaceship.dir/main.cpp.o: ../../src/main.cpp
 src/CMakeFiles/spaceship.dir/main.cpp.o: src/CMakeFiles/spaceship.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/spaceship.dir/main.cpp.o"
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/spaceship.dir/main.cpp.o -MF CMakeFiles/spaceship.dir/main.cpp.o.d -o CMakeFiles/spaceship.dir/main.cpp.o -c /home/riccardo/Project/gameDev/spaceship/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/spaceship.dir/main.cpp.o"
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/spaceship.dir/main.cpp.o -MF CMakeFiles/spaceship.dir/main.cpp.o.d -o CMakeFiles/spaceship.dir/main.cpp.o -c /home/riccardo/Projects/gameDev/rocketSpaceship/src/main.cpp
 
 src/CMakeFiles/spaceship.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spaceship.dir/main.cpp.i"
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riccardo/Project/gameDev/spaceship/src/main.cpp > CMakeFiles/spaceship.dir/main.cpp.i
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riccardo/Projects/gameDev/rocketSpaceship/src/main.cpp > CMakeFiles/spaceship.dir/main.cpp.i
 
 src/CMakeFiles/spaceship.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spaceship.dir/main.cpp.s"
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riccardo/Project/gameDev/spaceship/src/main.cpp -o CMakeFiles/spaceship.dir/main.cpp.s
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riccardo/Projects/gameDev/rocketSpaceship/src/main.cpp -o CMakeFiles/spaceship.dir/main.cpp.s
 
 # Object files for target spaceship
 spaceship_OBJECTS = \
@@ -90,23 +90,25 @@ spaceship_OBJECTS = \
 # External object files for target spaceship
 spaceship_EXTERNAL_OBJECTS =
 
-../../bin/Debug/spaceship: src/CMakeFiles/spaceship.dir/main.cpp.o
-../../bin/Debug/spaceship: src/CMakeFiles/spaceship.dir/build.make
-../../bin/Debug/spaceship: /usr/lib/x86_64-linux-gnu/libSDL2main.a
-../../bin/Debug/spaceship: /usr/lib/x86_64-linux-gnu/libSDL2.so
-../../bin/Debug/spaceship: src/CMakeFiles/spaceship.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riccardo/Project/gameDev/spaceship/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/Debug/spaceship"
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spaceship.dir/link.txt --verbose=$(VERBOSE)
+../../bin/spaceship: src/CMakeFiles/spaceship.dir/main.cpp.o
+../../bin/spaceship: src/CMakeFiles/spaceship.dir/build.make
+../../bin/spaceship: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1
+../../bin/spaceship: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+../../bin/spaceship: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+../../bin/spaceship: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
+../../bin/spaceship: src/CMakeFiles/spaceship.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/spaceship"
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spaceship.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/spaceship.dir/build: ../../bin/Debug/spaceship
+src/CMakeFiles/spaceship.dir/build: ../../bin/spaceship
 .PHONY : src/CMakeFiles/spaceship.dir/build
 
 src/CMakeFiles/spaceship.dir/clean:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug/src && $(CMAKE_COMMAND) -P CMakeFiles/spaceship.dir/cmake_clean.cmake
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src && $(CMAKE_COMMAND) -P CMakeFiles/spaceship.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/spaceship.dir/clean
 
 src/CMakeFiles/spaceship.dir/depend:
-	cd /home/riccardo/Project/gameDev/spaceship/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/riccardo/Project/gameDev/spaceship /home/riccardo/Project/gameDev/spaceship/src /home/riccardo/Project/gameDev/spaceship/build/Debug /home/riccardo/Project/gameDev/spaceship/build/Debug/src /home/riccardo/Project/gameDev/spaceship/build/Debug/src/CMakeFiles/spaceship.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/riccardo/Projects/gameDev/rocketSpaceship /home/riccardo/Projects/gameDev/rocketSpaceship/src /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src /home/riccardo/Projects/gameDev/rocketSpaceship/build/Debug/src/CMakeFiles/spaceship.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/spaceship.dir/depend
 
