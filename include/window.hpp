@@ -1,14 +1,10 @@
 #pragma once
 
-#include<memory>
-#include<SDL2/SDL.h>
+#include<SFML/Window.hpp>
 
 class Window {
 public:
     Window();
     ~Window() = default;
-private:
 
-    struct WindowDestroyer;    
-    std::unique_ptr<SDL_Window, WindowDestroyer> m_window;
 };
